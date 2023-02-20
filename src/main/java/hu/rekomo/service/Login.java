@@ -28,7 +28,7 @@ public class Login {
     @Produces(MediaType.APPLICATION_JSON)
     public Response login(UserData userdata) {
         try {
-            Database db = new Database("root", "");
+            Database db = new Database("postgres", "");
             String[] column = {"password"};
             Object[] where = {userdata.getUsername()};
             ResultSet rs = db.select("users", column, "username = ?", where);

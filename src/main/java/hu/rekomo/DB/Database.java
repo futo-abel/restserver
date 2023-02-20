@@ -18,7 +18,7 @@ public class Database {
     public Database(String userName, String password) throws SQLException
     {
         this.connection = 
-                DriverManager.getConnection("jdbc:mariadb://localhost:3306/warehouse", 
+                DriverManager.getConnection("jdbc:postgresql://localhost:5432/warehouse", 
                         userName, 
                         password);
     }
