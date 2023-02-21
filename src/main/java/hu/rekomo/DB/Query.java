@@ -1,9 +1,5 @@
 package hu.rekomo.DB;
 
-/**
- *
- * @author futo
- */
 public class Query {
     private StringBuilder query;
 
