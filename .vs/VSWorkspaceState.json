@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\restserver",
+    "\\restserver\\src",
+    "\\restserver\\src\\main",
+    "\\restserver\\src\\main\\java",
+    "\\restserver\\src\\main\\java\\hu",
+    "\\restserver\\src\\main\\java\\hu\\rekomo",
+    "\\restserver\\src\\main\\java\\hu\\rekomo\\model",
+    "\\restserver\\src\\main\\java\\hu\\rekomo\\service",
+    "\\restserver\\src\\main\\java\\hu\\rekomo\\util"
   ],
-  "SelectedNode": "\\C:\\Users\\tibor\\Source\\Repos\\warehouse",
+  "SelectedNode": "\\restserver\\tibitestfile",
   "PreviewInSolutionExplorer": false
 }
